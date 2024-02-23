@@ -26,7 +26,7 @@ while True:
     # Draw rectangles around each face
     for (x, y, w, h) in faces:
         cv2.rectangle(frame_rgb, (x, y), (x + w, y + h), (255, 0, 0), 2)
-        text = f'size: w={w} '
+        text = f'size: w={w}'
 
         font = cv2.FONT_HERSHEY_SIMPLEX
         # fontScale

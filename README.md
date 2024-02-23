@@ -6,6 +6,8 @@ This repository contains code for programming the DJI Tello RYZE drone for compu
 ## Features
 - Control and interface with the DJI Tello RYZE drone for various computer vision applications.
 - Examples and resources for common vision tasks.
+- Face detection functionality that operates the drone to identify faces and mark them with a rectangle.
+- Camera feed integration for local processing via `pid_with_camera.py`.
 
 ## Getting Started
 
@@ -33,6 +35,10 @@ To get started with the project, you need to install the necessary libraries in 
 ### DJI App Download
 To download the DJI App for the drone, visit the following link:
 [Download DJI App for Android](https://service-adhoc.dji.com/download/app/android/ba88a046-6f7e-4cbb-a969-27851eb4bbf5)
+
+## Next Steps
+- Implement the capability to set a desired distance from the detected face for the drone to maintain, enhancing the precision of the surveillance and tracking system.
+- Develop and integrate an advanced tracking algorithm to ensure smooth and reliable tracking of moving subjects.
 
 ## License
 ### Project License
